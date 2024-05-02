@@ -6,6 +6,5 @@ import lombok.Data;
 public class ProductoDto {
     private Integer id;
     private String nombre;
-
     private CategoriaDto categoria;
 }
