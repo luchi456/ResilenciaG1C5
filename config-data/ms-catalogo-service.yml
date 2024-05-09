@@ -1,5 +1,6 @@
 server:
-  port: 8062
+  #port: 8062
+  port: ${PORT:${SERVER_PORT:0}}
 springdoc:
   api-docs:
     enabled: true
