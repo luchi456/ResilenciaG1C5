@@ -1,8 +1,4 @@
-package com.example.msgatewayserver.config;
-
-
-
-
+package com.example.msgatewayservice.config;
 
 import com.example.msgatewayservice.dto.TokenDto;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
